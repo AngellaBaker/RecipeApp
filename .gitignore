@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 */mysecret.py
 *.pyc
 *.sqlite3
 *.DS_Store
+=======
+.DS_Store
+mysecret.py
+*.pyc
+>>>>>>> ee8e725306508185b78706940d7b002daee9d449
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -13,10 +19,17 @@ __pycache__/
 # Distribution / packaging
 .Python
 env/
+<<<<<<< HEAD
 bin/
 build/
 develop-eggs/
 dist/
+=======
+build/
+develop-eggs/
+dist/
+downloads/
+>>>>>>> ee8e725306508185b78706940d7b002daee9d449
 eggs/
 lib/
 lib64/
@@ -27,6 +40,15 @@ var/
 .installed.cfg
 *.egg
 
+<<<<<<< HEAD
+=======
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+>>>>>>> ee8e725306508185b78706940d7b002daee9d449
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
@@ -41,6 +63,7 @@ coverage.xml
 
 # Translations
 *.mo
+<<<<<<< HEAD
 
 # Mr Developer
 .mr.developer.cfg
@@ -56,3 +79,15 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+=======
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+>>>>>>> ee8e725306508185b78706940d7b002daee9d449
